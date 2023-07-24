@@ -68,12 +68,12 @@ void quick_sort(int *array, size_t size)
  */
 void r_swap_items_r(int *array, size_t l, size_t r)
 {
-        int tmp;
+	int tmp;
 
-        if (array != NULL)
-        {
-                tmp = array[l];
-                array[l] = array[r];
-                array[r] = tmp;
-        }
+	if (array != NULL)
+	{
+		tmp = array[l];
+		array[l] = array[r];
+		array[r] = tmp;
+	}
 }
